@@ -2,8 +2,9 @@
 
  In this class I am going through the fundamentals of java
  
--setting up the enviroment
+- setting up the enviroment
 
--version control systems
+- version control systems
 
--software development life cycle
+- software development life cycle
+- Lesson-1
