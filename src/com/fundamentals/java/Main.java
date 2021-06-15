@@ -1,13 +1,30 @@
 package com.fundamentals.java;
 
 import com.fundamentals.Lessons.Lesson5;
-
+import com.fundamentals.Lessons.Lesson6;
 public class Main {
 
     public static void main(String[] args) {
 
-     //lesson4Exmples();
-        lesson5Examples();
+     //lesson4Examples();
+       //lesson5Examples();
+        lesson6Examples();
+    }
+
+    public static void lesson6Examples() {
+        Lesson6 myLesson6 = new Lesson6();
+        myLesson6.exampleCharAt();
+        myLesson6.exampleConcat();
+        boolean val = myLesson6.exampleEquals();
+        System.out.println(val);
+        String str1 = myLesson6.exampleLowercase("HAPPY");
+        myLesson6.exampleLowercase("example");
+        myLesson6.exampleUppercase("example");
+
+        System.out.println(myLesson6.exampleLength());
+        myLesson6.exampleBuilder("Sphagati", 2);
+        myLesson6.exampleChar();
+        myLesson6.exampleEscape();
     }
 
     public static void lesson5Examples(){
@@ -19,7 +36,7 @@ public class Main {
         myLesson5.showInstanceVariable();
         myLesson5.showConversion();
     }
-    public static void Lesson4Examples(){
+    public static void lesson4Examples(){
         // write your code here
         System.out.println("welcome to java");
         System.out.println("This my first sentence");

@@ -34,7 +34,7 @@ public class Lesson5 {
     int value2 = 0x1a;
     // Binary value of 26
     int value3 = 0b11010;
-    // Ocatl value of 26
+    // Octal value of 26
     int value4 = 032;
 
     // Scientific Notation use E or e
