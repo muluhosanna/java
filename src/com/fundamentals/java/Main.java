@@ -3,6 +3,8 @@ package com.fundamentals.java;
 import com.fundamentals.Lessons.Lesson5;
 import com.fundamentals.Lessons.Lesson6;
 import com.fundamentals.Lessons.Lesson7;
+import com.fundamentals.Lessons.Lesson8;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,7 +12,32 @@ public class Main {
      // lesson4Examples();
        //lesson5Examples();
        // lesson6Examples()
-        lesson7Example();
+       // lesson7Example();
+        //lesson8Examples();
+       // moreLesson8();
+        song();
+    }
+    public static void song(){
+        BottlesOfBeerSong bob = new BottlesOfBeerSong();
+         bob.timeToSing();
+    }
+    public static void moreLesson8(){
+        Lesson8 myEight = new Lesson8();
+        myEight.basicWhileExample();
+        myEight.basicDoWhileExample();
+        myEight.basicForLoop();
+        myEight.basicBranchingExample();
+    }//end method
+    public static void lesson8Examples(){
+        Lesson8 myLesson8 = new Lesson8();
+        myLesson8.basicIfExample(5,10);
+        myLesson8.basicIfExample(5,5);
+        myLesson8.basicIfElseExample(10,12);
+        myLesson8.basicIfElseExample(12,12);
+        myLesson8.basicIfElseChainExample(42);
+        myLesson8.basicIfAndOrExample(102);
+        myLesson8.basicSwitchExample(3);
+
     }
 public static void lesson7Example(){
    Lesson7 myLesson7 = new Lesson7();
