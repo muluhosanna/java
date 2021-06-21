@@ -36,7 +36,6 @@ public class Lesson5 {
     int value3 = 0b11010;
     // Octal value of 26
     int value4 = 032;
-
     // Scientific Notation use E or e
     double d2 = 23.65E8;
 
@@ -66,7 +65,7 @@ public class Lesson5 {
         System.out.println("Before");
         System.out.println(myInt);
         System.out.println("After");
-        myInt = 14;
+       myInt = 14;
         System.out.println(myInt);
     }//end method
 
