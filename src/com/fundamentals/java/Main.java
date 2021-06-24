@@ -10,7 +10,17 @@ import com.fundamentals.Lessons.Lesson12;
 import com.fundamentals.Lessons.Lesson12Child1;
 import com.fundamentals.Lessons.Lesson12Child1Sub;
 import com.fundamentals.Lessons.Lesson12Child2;
+import com.fundamentals.Lessons.Lesson14;
 public class Main {
+    public static int num = 0;
+    static {
+        num = 42;
+        System.out.println("Static Block 1 = " + num);
+    }
+    static {
+        num = 63;
+        System.out.println("Static Block 2 = " +num);
+    }
 
     public static void main(String[] args) {
 
@@ -26,11 +36,24 @@ public class Main {
         //lesson10Examples();
        // houseConstructorExample();
        //lesson11Examples();
-        boatConstructorExample();
+       // boatConstructorExample();
         //condoExample();
        // sailBoatExample();
        // exercise6();
        // lesson12Examples();
+        lesson14Examples();
+    }
+    public static void lesson14Examples(){
+        //can not change a value of final variable
+        //Lesson14.MY_FIRST_FINAL =10
+        int total =Lesson14.MY_FIRST_FINAL +20;
+        System.out.println(total);
+        // can change a value of a non-final static
+        Lesson14.myFirstStatic =40;
+        System.out.println(Lesson14.myFirstStatic);
+        Lesson14.myStaticMethodExample(10);
+        Lesson14.MyInnerClass myInnerClass = new Lesson14.MyInnerClass();
+        myInnerClass.myInnerMethod();
     }
     public static void lesson12Examples(){
         Lesson12Child1 child1 = new Lesson12Child1(5);
