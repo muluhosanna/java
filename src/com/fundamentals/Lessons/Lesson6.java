@@ -49,7 +49,7 @@ public class Lesson6 {
         StringBuilder builder = new StringBuilder();
         builder.append("My favorite food is");
         builder.append(food).append("and I ate")
-                .append(quantity).append("plates of it");
+                .append(quantity).append("plates of it.");
         String fav = builder.toString();
         System.out.println(fav);
 

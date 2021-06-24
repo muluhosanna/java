@@ -2,8 +2,6 @@ package com.fundamentals.exercises;
 
 public class Lesson5Exercises {
 
-    // This primitive type has a value rage of 0 to 65535
-    char myChar = 'C';
     // This primitive type has a value range of -128 to 127
     byte myByte = 9;
     // This primitive type has a value range of -32768 to 32767

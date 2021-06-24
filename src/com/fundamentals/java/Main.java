@@ -1,27 +1,97 @@
 package com.fundamentals.java;
 
-import com.fundamentals.Lessons.Lesson5;
-import com.fundamentals.Lessons.Lesson6;
-import com.fundamentals.Lessons.Lesson7;
-import com.fundamentals.Lessons.Lesson8;
+import com.fundamentals.Lessons.*;
 import com.fundamentals.exercises.Lesson5Exercises;
-import com.fundamentals.Lessons.Lesson9;
-
+import com.fundamentals.Lessons.Lesson10;
+import com.fundamentals.Lessons.Lesson10Demo;
+import com.fundamentals.Lessons.Lesson11;
+import com.fundamentals.exercises.Lesson6Exercises;
+import com.fundamentals.Lessons.Lesson12;
+import com.fundamentals.Lessons.Lesson12Child1;
+import com.fundamentals.Lessons.Lesson12Child1Sub;
+import com.fundamentals.Lessons.Lesson12Child2;
 public class Main {
 
     public static void main(String[] args) {
 
         // lesson4Examples();
         //lesson5Examples();
-        // lesson6Examples()
+        // lesson6Examples();
         // lesson7Example();
         //lesson8Examples();
         // moreLesson8();
         //  song();
-        exercise5Example();
+       // exercise5Example();
         //lesson9Examples();
+        //lesson10Examples();
+       // houseConstructorExample();
+       //lesson11Examples();
+        boatConstructorExample();
+        //condoExample();
+       // sailBoatExample();
+       // exercise6();
+       // lesson12Examples();
     }
+    public static void lesson12Examples(){
+        Lesson12Child1 child1 = new Lesson12Child1(5);
+        System.out.println(child1.calculateArea());
+        System.out.println("h " + child1.getHeight());
+        Lesson12 myLesson12 = new Lesson12Child2(5,10);
+        System.out.println(myLesson12.calculateArea());
+        Lesson12 my12 = new Lesson12Child1(5);
+        System.out.println(my12.calculateArea());
+    }
+    public static void  exercise6(){
+        Lesson6Exercises myExercise = new Lesson6Exercises();
+        myExercise.lowerCase();
+        myExercise.signPilcrow();
+        myExercise.makingPoem();
+    }
+    public static void sailBoatExample(){
+        SailBoat mySailBoat = new SailBoat();
+        mySailBoat.setSailSize(30);
+        mySailBoat.getWeightCapacity();
+        mySailBoat.setNumberOfSails(4);
+    }
+    public static void boatConstructorExample(){
+        Boat myBoat = new Boat("red");
+        myBoat.getWindowSize();
+        myBoat.setWindowSize(40);
+        myBoat.setShellColor("green");
+        myBoat.setWeightCapacity(4000);
+        myBoat.getWeightCapacity();
+        myBoat.weight(4005,45);
 
+
+    }
+    public static void condoExample(){
+        Condo myCondo = new Condo();
+        myCondo.setBalcony("small");
+        myCondo.doorOpenClose();// from class override
+        myCondo.setDoorColor("blue");// from House class
+        myCondo.maintenance();
+        myCondo.doorOpenClose("closed");//from House class
+    }
+    public static void lesson11Examples(){
+        Lesson11 myEleven = new Lesson11("Kansas city");
+        System.out.println(myEleven.getfName() + " " +
+        myEleven.getlName() + "is from " +myEleven.getCity());
+    }
+public static void  houseConstructorExample(){
+   House house1 = new House();
+   house1.setDoorColor("Green");
+   System.out.println(house1.getDoorColor());
+   House house2 = new House("red");
+   //System.out.println(house2.getFoundationType());//prints null
+   House house3 = new House("blue", "metal", "bambo", 32);
+   System.out.println(house3.getRoofStyle());
+}
+public static void lesson10Examples(){
+    Lesson10 myTen = new Lesson10();
+    myTen.showPublicExample();
+    Lesson10Demo myTenDemo = new Lesson10Demo();
+    myTenDemo.showOtherModifiers();
+}
     public static void lesson9Examples() {
         Lesson9 myNine = new Lesson9();
         myNine.basicIntArray();
