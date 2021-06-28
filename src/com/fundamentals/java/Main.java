@@ -43,10 +43,33 @@ public class Main {
        // lesson12Examples();
         //lesson14Examples();
        // lesson8Exercises();
+       // lesson15Example();
+        test();
     }
+    public static void lesson15Example(){
+        int[]myKeys = {0,1,2,3,4,5,6,7,8,9};
+        Lesson15Child myIphone = new Lesson15Child(25,myKeys,0,
+                "color screen");
+        myIphone.sendCall();
+        myIphone.holdCall();
+        System.out.println(myIphone.getScreen());
+        //Abstract objet through its child class only
+        Lesson15Abstract blackberry = new Lesson15Child(0, myKeys, -1,
+                "monchrome");
+        blackberry.receiveCall();
+
+
+    }//end method
     public static void lesson8Exercises(){
        Lesson8Exercises myExercise8 = new Lesson8Exercises();
        myExercise8.loopExampleV2();
+
+    }
+    public static  void test(){
+        House house = new House("red");
+        System.out.println(house.getDoorColor() + "FROM GETTER");
+        House house2 = new House("green");
+        System.out.println(house2.getDoorColor() + "FROM GETTER");
 
     }
     public static void lesson14Examples(){
