@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 /*
 * A second child of Lesson12
  */

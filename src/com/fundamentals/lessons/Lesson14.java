@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 /*
 * This class goes over Lesson 14 content
 * Static

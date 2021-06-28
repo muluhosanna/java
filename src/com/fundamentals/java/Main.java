@@ -1,16 +1,16 @@
 package com.fundamentals.java;
 
-import com.fundamentals.Lessons.*;
+import com.fundamentals.lessons.*;
 import com.fundamentals.exercises.Lesson5Exercises;
-import com.fundamentals.Lessons.Lesson10;
-import com.fundamentals.Lessons.Lesson10Demo;
-import com.fundamentals.Lessons.Lesson11;
+import com.fundamentals.lessons.Lesson10;
+import com.fundamentals.lessons.Lesson10Demo;
+import com.fundamentals.lessons.Lesson11;
 import com.fundamentals.exercises.Lesson6Exercises;
-import com.fundamentals.Lessons.Lesson12;
-import com.fundamentals.Lessons.Lesson12Child1;
-import com.fundamentals.Lessons.Lesson12Child1Sub;
-import com.fundamentals.Lessons.Lesson12Child2;
-import com.fundamentals.Lessons.Lesson14;
+import com.fundamentals.lessons.Lesson12;
+import com.fundamentals.lessons.Lesson12Child1;
+import com.fundamentals.lessons.Lesson12Child2;
+//import com.fundamentals.lessons.Lesson14;
+import com.fundamentals.exercises.Lesson8Exercises;
 public class Main {
     public static int num = 0;
     static {
@@ -41,7 +41,13 @@ public class Main {
        // sailBoatExample();
        // exercise6();
        // lesson12Examples();
-        lesson14Examples();
+        //lesson14Examples();
+       // lesson8Exercises();
+    }
+    public static void lesson8Exercises(){
+       Lesson8Exercises myExercise8 = new Lesson8Exercises();
+       myExercise8.loopExampleV2();
+
     }
     public static void lesson14Examples(){
         //can not change a value of final variable

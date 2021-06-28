@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 /*
 * The content of this class is for Lesson9
 * Arrays

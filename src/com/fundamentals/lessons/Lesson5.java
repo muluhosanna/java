@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 
 /*
  * The contents of this class is for the lesson 5 slide deck

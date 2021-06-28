@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 
 /*
  *This class will help demonstrate default and protected

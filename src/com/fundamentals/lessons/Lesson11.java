@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 /*
 * The content of this class is for lesson 11
 * Constructors & Encapsulation

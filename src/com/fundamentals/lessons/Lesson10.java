@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 
 /*
  * This class contents of the class is for lesson10

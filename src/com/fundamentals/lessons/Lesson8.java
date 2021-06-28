@@ -1,9 +1,10 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 /* The content of this class is to go over Lesson8 and content
  * Control Flow Statements
  **/
 
 public class Lesson8 {
+
     public void basicIfExample(int value1, int value2) {
         System.out.println("Before if Statement");
         if (value1 == value2) {

@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 /*
 * This class demonstrates types of Inheritance
 * Lesson 12- Inheritance

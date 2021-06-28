@@ -1,4 +1,4 @@
-package com.fundamentals.Lessons;
+package com.fundamentals.lessons;
 
 /*
  *sub child class of Lesson12Child1
