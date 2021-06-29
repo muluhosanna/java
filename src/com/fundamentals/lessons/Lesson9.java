@@ -32,6 +32,15 @@ public void basicTwoDimensionalArray(){
             }// end inner for loop
         }// end outer for loop
 }// end method
+    public void sampleArray(){
+        int[][] myArray1 = {{1,2,3},{4,5,6}};
+        for (int i = 0; i < myArray1.length; i++){
+            for (int j = 0; j < myArray1[i].length; j++){
+                System.out.println(myArray1[i][j] + " " );
+            }
+            System.out.println( );
+        }
+    }
     public void basicThreeDimensionalArray(){
         int[][][] threeArray = new int[2][2][2];
         threeArray[0][0][0] = 10;//1

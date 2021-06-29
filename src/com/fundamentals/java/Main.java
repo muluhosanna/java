@@ -1,5 +1,6 @@
 package com.fundamentals.java;
 
+import com.fundamentals.exercises.Lesson9Exercises;
 import com.fundamentals.lessons.*;
 import com.fundamentals.exercises.Lesson5Exercises;
 import com.fundamentals.lessons.Lesson10;
@@ -32,7 +33,7 @@ public class Main {
         // moreLesson8();
         //  song();
        // exercise5Example();
-        //lesson9Examples();
+       // lesson9Examples();
         //lesson10Examples();
        // houseConstructorExample();
        //lesson11Examples();
@@ -44,7 +45,29 @@ public class Main {
         //lesson14Examples();
        // lesson8Exercises();
        // lesson15Example();
-        test();
+       // test();
+        //lesson9Exercises();
+        lesson16Example();
+    }
+    public static void lesson16Example(){
+        Lesson16 my16 = new Lesson16();
+        my16.showEnum();
+        my16.myFavoriteFlavor(Lesson16.IcecreamFlavors.ROCK_ROAD);
+
+        Lesson16Enum[] days = Lesson16Enum.values();
+        for (Lesson16Enum day : days){
+            System.out.println(day + " at index " + day.ordinal());
+
+        }//for-each loop version of the for loop
+        for (Lesson16Enum dayVal : days){
+            System.out.println("Day Name: " +
+                    dayVal.toString()+ " day number: " + dayVal.getDayNum());
+        }// end for-each  loop
+    }
+    public static void lesson9Exercises(){
+        Lesson9Exercises myNineExercise = new Lesson9Exercises();
+        myNineExercise.sampleArray();
+        myNineExercise.sample2Array();
     }
     public static void lesson15Example(){
         int[]myKeys = {0,1,2,3,4,5,6,7,8,9};
@@ -151,6 +174,7 @@ public static void lesson10Examples(){
         myNine.basicTwoDimensionalArray();
         myNine.basicThreeDimensionalArray();
         myNine.basicJaggedArray();
+        myNine.sampleArray();
     }
 
     public static void exercise5Example() {
