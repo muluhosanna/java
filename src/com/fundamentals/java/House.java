@@ -9,12 +9,14 @@ public class House {
 
     // default constructor
     public House() {
+      this("red","bamboo","plastic",30);
         System.out.println("This is a default constructor");
     }// end constructor
 
     // constructor with 1 parameter
     public House(String colorDoor) {
-        this.doorColor = colorDoor;
+
+        this(colorDoor,"shingle","dirt" ,24);
         System.out.println("The the door color is" + colorDoor);
     }// end constructor
 

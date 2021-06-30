@@ -47,7 +47,16 @@ public class Main {
        // lesson15Example();
        // test();
         //lesson9Exercises();
-        lesson16Example();
+       // lesson16Example();
+        lesson17Example();
+    }
+    public static void lesson17Example(){
+        Lesson17 my17 = new Lesson17();
+        my17.exampleArrayList1();
+        my17.exampleArrayList2();
+        my17.exampleArrayListHouse();
+        my17.exampleHashset();
+        my17.exampleHashMap();
     }
     public static void lesson16Example(){
         Lesson16 my16 = new Lesson16();
