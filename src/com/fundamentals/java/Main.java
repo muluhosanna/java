@@ -1,17 +1,17 @@
 package com.fundamentals.java;
 
-import com.fundamentals.exercises.Lesson9Exercises;
+import com.fundamentals.exercises.*;
 import com.fundamentals.lessons.*;
-import com.fundamentals.exercises.Lesson5Exercises;
 import com.fundamentals.lessons.Lesson10;
 import com.fundamentals.lessons.Lesson10Demo;
 import com.fundamentals.lessons.Lesson11;
-import com.fundamentals.exercises.Lesson6Exercises;
 import com.fundamentals.lessons.Lesson12;
 import com.fundamentals.lessons.Lesson12Child1;
 import com.fundamentals.lessons.Lesson12Child2;
+
+import javax.swing.plaf.synth.SynthTabbedPaneUI;
 //import com.fundamentals.lessons.Lesson14;
-import com.fundamentals.exercises.Lesson8Exercises;
+
 public class Main {
     public static int num = 0;
     static {
@@ -48,7 +48,26 @@ public class Main {
        // test();
         //lesson9Exercises();
        // lesson16Example();
-        lesson17Example();
+        //lesson17Example();
+        //exercise9();
+       lesson18Example();
+    }
+    public static void lesson18Example(){
+        Lesson18 my18 = new Lesson18();
+       // my18.exampleThrows();
+        //my18.exampleException2();
+        //my18.exampleFinally();
+        my18.myArrayException();
+    }
+    public static void exercise9(){
+        Television myTelevision = new Television(40,395.45);
+        myTelevision.turOn();
+        System.out.println(myTelevision.getNumberOfPorts());
+        System.out.println(myTelevision.getIsMountable());
+        System.out.println(myTelevision.getPrice());
+        System.out.println(myTelevision.getScreenSize());
+
+
     }
     public static void lesson17Example(){
         Lesson17 my17 = new Lesson17();
