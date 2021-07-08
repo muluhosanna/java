@@ -5,7 +5,7 @@ package com.fundamentals.lessons;
 public class Lesson15Child extends Lesson15Abstract implements Lesson15Interface {
     public Lesson15Child(int volume, int[]numberKey, int sendKey,
                             String screen){
-        super(volume, numberKey, sendKey, screen);
+       super(volume, numberKey, sendKey, screen);
     }
     @Override
     public void receiveCall(){

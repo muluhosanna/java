@@ -44,13 +44,36 @@ public class Main {
        // lesson12Examples();
         //lesson14Examples();
        // lesson8Exercises();
-       // lesson15Example();
+        //lesson15Example();
        // test();
         //lesson9Exercises();
-       // lesson16Example();
+        //lesson16Example();
         //lesson17Example();
         //exercise9();
-       lesson18Example();
+       //lesson18Example();
+       // lesson16Exercise();
+       // moreOnducks();
+        moreOnPenguins();
+    }
+public static void moreOnPenguins(){
+        Penguin myPenguin = new Penguin(2,2,19.5,"carnivores");
+        myPenguin.eat();
+        myPenguin.swim();
+        System.out.println(myPenguin.getFamily());
+        System.out.println(myPenguin.getWeight());
+}
+    public static void moreOnducks(){
+        Duck myDuck = new Duck(2,2,10,"omnivores");
+
+        myDuck.swim();
+        myDuck.getFamily();
+        System.out.println(myDuck.getFamily());
+
+
+    }
+    public static void lesson16Exercise(){
+        Lesson16Exercise exercise16 = new Lesson16Exercise();
+        exercise16.movieFamous(Lesson16Exercise.MovieGenres.ACTION);
     }
     public static void lesson18Example(){
         Lesson18 my18 = new Lesson18();

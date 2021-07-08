@@ -16,16 +16,16 @@ public class Lesson16 {
         String message = "My favorite flavor is ";
         switch (flavors){
             case VANILA:
-                message += "vailla";// same as message = message +"vanilla
+                message += " vailla";// same as message = message +"vanilla
                 break;
             case CHOCOLATE:
-                message += "Chocolate";
+                message += " Chocolate";
                 break;
             case STRAWBERRY:
-                message += "strawberry";
+                message += " strawberry";
                 break;
             default:
-                message += "Rocky Road";
+                message += " Rocky Road";
                 break;
 
 
