@@ -17,7 +17,7 @@ public class House {
     public House(String colorDoor) {
 
         this(colorDoor,"shingle","dirt" ,24);
-        System.out.println("The the door color is" + colorDoor);
+        System.out.println("The the door color is " + colorDoor);
     }// end constructor
 
     public House(String colorDoor, String styleRoof, String typeFoundation, int sizeWindow) {

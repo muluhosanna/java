@@ -20,8 +20,8 @@ public class Boat {
         this.weightCapacity = weightCapacity;
         this.windowSize = sizeWindow;
     }//end method
-public void weight(float weightCapacity, int windowSize){
-        System.out.println( "this is the weight of the boat"+windowSize);
+public void weight(){
+        System.out.println( "This is the weight of the boat" );
 
 }
     public void setShellColor(String shellColor) {

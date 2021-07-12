@@ -48,12 +48,18 @@ public class Main {
        // test();
         //lesson9Exercises();
         //lesson16Example();
-        //lesson17Example();
+       // lesson17Example();
         //exercise9();
        //lesson18Example();
        // lesson16Exercise();
        // moreOnducks();
-        moreOnPenguins();
+       // moreOnPenguins();
+        moreonExercise17();
+    }
+    public static void moreonExercise17(){
+        Lesson17Exercise myExercise = new Lesson17Exercise();
+        myExercise.boatArrayList();
+        myExercise.houseHashMap();
     }
 public static void moreOnPenguins(){
         Penguin myPenguin = new Penguin(2,2,19.5,"carnivores");
@@ -186,7 +192,7 @@ public static void moreOnPenguins(){
         myBoat.setShellColor("green");
         myBoat.setWeightCapacity(4000);
         myBoat.getWeightCapacity();
-        myBoat.weight(4005,45);
+        myBoat.weight();
 
 
     }
